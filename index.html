@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Protfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/12ebbb6cab.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="allPics/logo.jpg"class="logo" alt="Portfolio Logo"><br><br>
+                <ul id="sidemenu">
+                    <li><a href="#header"><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-address-card"></i>&nbsp;About</a></li>
+                    <li><a href="#services"><i class="fa-brands fa-aws"></i>&nbsp;Services</a></li>
+                    <li><a href="#portfolio"><i class="fa-solid fa-file"></i>&nbsp;Protfolio</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-phone"></i>&nbsp;Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <ul>
+                    <li><p>Web Designer</p></li>
+                    <li><h3>Hey, This is <spain><marquee>Shambhavi</marquee></spain><br>From <spain1>India</spain1></h3></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="allPics/pic5.jpg" height="400"width="200" alt="My Image">
+                </div>
+                <div class="about-col-2">
+                    <br><h2 class="sub-title">About Me</h2>
+                    <p>Hello, I am Shambhavi from Saharsa Bihar,
+                        I have completed my basic Eduction from kinder graten school 
+                        since when, I was in 1st and till 8th Standard,and
+                        Completed 9th and 10th from govt girls high school saharsa,
+                        and entermediate in RJM college saharsa with First Class,and
+                        completed my Bechlor of Computer of application from MLT 
+                        College this Institute with Distinction and
+                        Currrently I am pursuing my masters (MCA) 
+                        from National Institute of Technology Warangal(Telangana).</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links  "onclick="opentab('education')">Education</p>
+                            <p class="tab-links "onclick="opentab('personalInformation')">Personal Information</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Hard Skills</span><br>C<br>C++<br>Oops Concept (Java,C++)<br>HTML<br>CSS<br>JavaScripts<br>SQL<br>R Programming <br>V.B.</li>
+                                <li><span>Soft Skills</span><br>Problem Solving<br>Team Work</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Masters(2022-2025)</span><br>Masters of Computer Application from National Institute of Technology Warangal(Telangana)<br><br><a href="https://www.nitw.ac.in/" target="_blank">National Institute of Technology Warangal</a></strong></li><br>
+                                <li><span>Bechlor(2018-2021)</span><br>Bechlor of Computer Application from Manohar Lal Tekriwal College Saharsa(Bihar)<br><br><a href="https://mltcollege.org/" target="_blank">Manohar Lal Tekriwal College</a></li><br>
+                                <li><span>Intermediate Education(2016-2018)</span><br>11th-12th from Ramesh Jha Mahila College Saharsa (Bihar)<br><br><a href="https://rjmcsaharsa.org/" target="_blank">Ramesh Jha Mahila College Saharsa</a></li><br>
+                                <li><span>High School</span><br>Govt. Girls High School Saharsa(Bihar)<br><br><a href="https://schools.org.in/saharsa/10120403904/govt-girls-high-school-saharsa.html" target="_blank">Govt. Girls High School Saharsa </a></li><br>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="personalInformation">
+                            <ul>
+                                <li><span>Email Id</span><br>iamshambhavi23@gmail.com</li>
+                                <li><span>Phone No.</span><br>9798701102</li>
+                                <li><span>Linkedln Id</span><br>https://www.linkedin.com/in/shambhavi-kumari-6a39b2246</li>
+                                <li><span>D.O.B.</span><br>23-11-2001 ( 23 November 2001 )</li>
+                                <li><span>Nationality</span><br>Indian</li>
+                                <li><span>Home Town</span><br>Saharsa ( Bihar 852201 )</li>
+                            </ul>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="services">
+    <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+            <div>
+                <i class="fa-regular fa-thumbs-up"></i>
+                <h2>Web Design</h2>
+                <p>I can offer mobile app development services to clients who 
+                    need applications for their businesses or personal projects. 
+                    This could include designing and developing applications for Android 
+                    or iOS platforms.</p>
+                <a href="webDesign.html">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code-compare"></i>
+                <h2>Problem Solving</h2>
+                <p> This can include troubleshooting and resolving issues with 
+                    computer systems, networks, servers, or databases, 
+                    as well as optimizing digital systems, processes, or workflows 
+                    for improved efficiency and performance
+                </p>
+                <a href="problemSolving.html">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Coding</h2>
+                <p>oding services involve offering technical expertise to clients 
+                    who need help with developing websites, web applications, or software
+                     projects. As a coder, you can showcase your coding skills, 
+                     previous work, and process on your portfolio website to attract 
+                     potential clients who need your coding services.</p>
+                <a href="Coding.html">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="portfolio">
+    <div class="container">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="allPics/Screen.png">
+                <div class="layer">
+                    <h3>My Portfolio</h3>
+                    <!-- <p>Java Project</p> -->
+                    <a href="https://iamshambhavi23.github.io/My-Portfolio/">website</i></a>
+                    <a href="https://github.com/iamShambhavi23/Notepad.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="allPics/Screen1.png">
+                <div class="layer">
+                    <h3>Country Guide App</h3>
+                    <!-- <p>Web Development Project</p> -->
+                    <a href="https://iamshambhavi23.github.io/CountryGuideApp/">website</i></a>
+                    <a href="https://github.com/iamShambhavi23/CalCulator.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="seeMore.html"class="btn">See More</a>
+    </div>
+</div>
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="sub-title">Contact Me</h2>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> Contact Number</p>
+                <p><i class="fa-solid fa-phone"></i>9798701102</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/shambhavi-kumari-6a39b2246"><i class="fa-brands fa-linkedin"></i>&emsp;Linkedin</a>
+                    <a href=""><i class="fa-brands fa-github"></i>&emsp;GitHub</a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook">&emsp;facebook</i></a>
+                    <a href="https://leetcode.com/problemset/all/"><i class="fa-solid fa-l"></i></i>&emsp;Leetcode</a>
+                    <a href="https://www.hackerrank.com/dashboard"><i class="fa-solid fa-h"></i></i>&emsp;HackerRank</a>
+                </div>
+                <a href="shambhavi.pdf" download class="btn btn2"><i class="fa-solid fa-download"></i>&emsp;Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="PortInsert.php"method="post">
+                    <input type="text" name="nm" placeholder="Your Name" required>
+                    <input type="email" name="email"placeholder="Your Email" required>
+                    <textarea type="Message" rows="8" placeholder="Your Message" name="msg"></textarea>
+                    <input type="submit" class="btn btn2" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>Copyright @ 23-04-2023&nbsp;<i class="fa-solid fa-heart"></i>&nbsp;All Right Reserved</p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+
+
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemeu.style.right="0";
+        }
+        function closemenu()
+        {
+            sidemeu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
